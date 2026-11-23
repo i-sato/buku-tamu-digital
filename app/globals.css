@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-success: #146C2E;
+  --color-on-success: #FFFFFF;
+  --color-success-container: #E6F4EA;
+  --color-on-success-container: #0D4E20;
+
+  --color-primary: #00183B;
+  --color-on-primary: #FFFFFF;
+  --color-primary-container: #0F2D59;
+  --color-on-primary-container: #FFFFFF;
+  --color-inverse-primary: #ADC7FC;
+
+  --color-secondary: #555E72;
+  --color-on-secondary: #FFFFFF;
+  --color-secondary-container: #D9E2FA;
+  --color-on-secondary-container: #121C2D;
+
+  --color-error: #BA1A1A;
+  --color-on-error: #FFFFFF;
+  --color-error-container: #FFDAD6;
+  --color-on-error-container: #410002;
+
+  --color-surface: #FAF9FD;
+  --color-surface-dim: #DAD9DE;
+  --color-surface-container-lowest: #FFFFFF;
+  --color-surface-container-low: #F4F3F7;
+  --color-surface-container: #EFEDF2;
+  --color-surface-container-high: #E9E7EC;
+  --color-on-surface: #1A1B1F;
+  --color-on-surface-variant: #44474F;
+  --color-outline: #747780;
+  --color-outline-variant: #C4C6D0;
+
+  --font-headline: "Red Hat Text", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Spline Sans Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-body);
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+  }
+}

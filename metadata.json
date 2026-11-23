@@ -1,0 +1,6 @@
+{
+  "name": "Buku Tamu Digital (e-Tamu)",
+  "description": "Aplikasi web Buku Tamu Digital resmi Dinas Komunikasi dan Informatika untuk pencatatan kunjungan tamu, bukti kunjungan, dan dasbor pemantauan petugas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
